@@ -18,12 +18,11 @@
     "src",
     "react-native.config.js",
     "react-native-amap-geolocation.podspec",
-    "lib/js",
     "lib/ios",
     "lib/android/src",
     "lib/android/build.gradle"
   ],
-  "main": "lib/js",
+  "main": "src",
   "scripts": {
     "build-docs": "npx typedoc --out docs/api --excludeNotExported --module commonjs --mode file src",
     "start": "react-native start",
